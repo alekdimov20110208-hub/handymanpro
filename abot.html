@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>За Нас | HANDYMAN PRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">HANDYMAN<span>PRO</span></a>
+        <div class="mobile-menu-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <nav><ul id="nav-links">
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="abot.html" class="active">За Нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="faq.html">Въпроси</a></li>
+            <li><a href="portfolio.html">Галерия</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul></nav>
+    </header>
+<div class="page-header" style="background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1920');">
+    <h1>ЗА КОМПАНИЯТА</h1>
+    <p>Вашият надежден партньор за поддръжка на дома и офиса във Варна.</p>
+</div>
+
+    <section>
+        <div class="grid-2">
+            <div>
+                <div class="section-header" style="text-align: left;">
+                    <span>Нашата Мисия</span>
+                    <h2>Повече от обикновени майстори</h2>
+                </div>
+                <p style="margin-bottom: 20px; font-size: 1.1rem;">
+                    "Handyman Pro" е създадена с една цел: да запълни липсата на коректни, чисти и възпитани майстори във Варна. Знаем колко е досадно майсторът да закъснее, да остави мръсно или да промени цената в последната минута.
+                </p>
+                <p style="color: #64748b;">
+                    Ние предлагаме комплексна услуга. Вместо да викате електротехник за контакта, водопроводчик за мивката и мебелист за гардероба – ние правим всичко това с едно посещение. Спестяваме ви време, нерви и пари.
+                </p>
+                <br>
+                <h3>Нашите принципи:</h3>
+                <ul class="check-list">
+                    <li><i class="fas fa-check"></i> <strong>Точност:</strong> Ценим вашето време.</li>
+                    <li><i class="fas fa-check"></i> <strong>Прозрачност:</strong> Ясни цени преди началото на работата.</li>
+                    <li><i class="fas fa-check"></i> <strong>Чистота:</strong> Носим си калцуни и прахосмукачка.</li>
+                </ul>
+            </div>
+            <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&w=800" alt="Майстор работи">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo" style="font-size: 1.5rem;">HANDYMAN<span>PRO</span></a>
+                <p style="margin-top: 20px; color: #94a3b8;">
+                    Вашият надежден партньор за поддръжка на дома и офиса във Варна.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Бързи връзки</h4>
+                <ul>
+                    <li><a href="index.html">Начало</a></li>
+                    <li><a href="abot.html"class="active">За нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="faq.html">Въпроси</a></li>
+                    <li><a href="portfolio.html">Галерия</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <ul>
+                    <li><i class="fas fa-phone" style="color: var(--accent); margin-right: 10px;"></i> 0888 123 456</li>
+                    <li><i class="fas fa-envelope" style="color: var(--accent); margin-right: 10px;"></i> office@handymanpro.bg</li>
+                    <li><i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 10px;"></i> Варна и региона</li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+            <p style="color: #64748b; font-size: 0.9rem;">&copy; 2024 Handyman Pro Varna.</p>
+        </div>
+    </footer>
+    <script>function toggleMenu() { document.getElementById('nav-links').classList.toggle('active'); }</script>
+</body>
+</html>
